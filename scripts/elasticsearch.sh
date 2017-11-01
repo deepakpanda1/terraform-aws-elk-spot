@@ -1,7 +1,7 @@
 #!/bin/bash
 
 sudo apt update
-sudo apt install openjdk-8-jdk -y
+sudo apt install openjdk-8-jdk -y htop
 
 # install elasticsearch
 wget https://artifacts.elastic.co/downloads/elasticsearch/elasticsearch-5.2.0.deb

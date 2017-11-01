@@ -1,6 +1,14 @@
-variable "key" {
-  description = "Name of the AWS Key Pair to associate with the ELK instance."
+variable "aws_region" {}
+variable "environment" {}
+variable "instance_type" {}
+variable "key_name" {}
+variable "key" {}
+variable "pem_key" {}
+variable "private_key" {}
+
+variable "product" {
+  default = "elk"
 }
-variable "private_key" {
-  description = "Path to the local SSH private key file associated with the AWS Key Pair."
-}
+
+variable "spot_price" {}
+variable "stack_name" {}
